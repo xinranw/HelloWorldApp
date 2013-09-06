@@ -19,6 +19,9 @@
 		CEFE330917DA875F008B0113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFE32F117DA875F008B0113 /* UIKit.framework */; };
 		CEFE331117DA875F008B0113 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFE330F17DA875F008B0113 /* InfoPlist.strings */; };
 		CEFE331317DA875F008B0113 /* HelloWorldAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE331217DA875F008B0113 /* HelloWorldAppTests.m */; };
+		CEFE331D17DA8ADB008B0113 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFE331C17DA8ADB008B0113 /* MainStoryboard.storyboard */; };
+		CEFE332317DA8EDC008B0113 /* XIWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE332217DA8EDC008B0113 /* XIWViewController.m */; };
+		CEFE332617DA935A008B0113 /* XIWTapCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE332517DA935A008B0113 /* XIWTapCounter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		CEFE330E17DA875F008B0113 /* HelloWorldAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldAppTests-Info.plist"; sourceTree = "<group>"; };
 		CEFE331017DA875F008B0113 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEFE331217DA875F008B0113 /* HelloWorldAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppTests.m; sourceTree = "<group>"; };
+		CEFE331C17DA8ADB008B0113 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CEFE332117DA8EDC008B0113 /* XIWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XIWViewController.h; path = ../XIWViewController.h; sourceTree = "<group>"; };
+		CEFE332217DA8EDC008B0113 /* XIWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XIWViewController.m; path = ../XIWViewController.m; sourceTree = "<group>"; };
+		CEFE332417DA935A008B0113 /* XIWTapCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIWTapCounter.h; sourceTree = "<group>"; };
+		CEFE332517DA935A008B0113 /* XIWTapCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIWTapCounter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +115,13 @@
 		CEFE32F317DA875F008B0113 /* HelloWorldApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEFE332117DA8EDC008B0113 /* XIWViewController.h */,
+				CEFE332217DA8EDC008B0113 /* XIWViewController.m */,
 				CEFE32FC17DA875F008B0113 /* XIWAppDelegate.h */,
 				CEFE32FD17DA875F008B0113 /* XIWAppDelegate.m */,
+				CEFE331C17DA8ADB008B0113 /* MainStoryboard.storyboard */,
+				CEFE332417DA935A008B0113 /* XIWTapCounter.h */,
+				CEFE332517DA935A008B0113 /* XIWTapCounter.m */,
 				CEFE32FF17DA875F008B0113 /* Images.xcassets */,
 				CEFE32F417DA875F008B0113 /* Supporting Files */,
 			);
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFE331D17DA8ADB008B0113 /* MainStoryboard.storyboard in Resources */,
 				CEFE32F817DA875F008B0113 /* InfoPlist.strings in Resources */,
 				CEFE330017DA875F008B0113 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +256,8 @@
 			files = (
 				CEFE32FA17DA875F008B0113 /* main.m in Sources */,
 				CEFE32FE17DA875F008B0113 /* XIWAppDelegate.m in Sources */,
+				CEFE332317DA8EDC008B0113 /* XIWViewController.m in Sources */,
+				CEFE332617DA935A008B0113 /* XIWTapCounter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
