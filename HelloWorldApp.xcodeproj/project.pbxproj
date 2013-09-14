@@ -115,11 +115,11 @@
 		CEFE32F317DA875F008B0113 /* HelloWorldApp */ = {
 			isa = PBXGroup;
 			children = (
-				CEFE332117DA8EDC008B0113 /* XIWViewController.h */,
-				CEFE332217DA8EDC008B0113 /* XIWViewController.m */,
 				CEFE32FC17DA875F008B0113 /* XIWAppDelegate.h */,
 				CEFE32FD17DA875F008B0113 /* XIWAppDelegate.m */,
 				CEFE331C17DA8ADB008B0113 /* MainStoryboard.storyboard */,
+				CEFE332117DA8EDC008B0113 /* XIWViewController.h */,
+				CEFE332217DA8EDC008B0113 /* XIWViewController.m */,
 				CEFE332417DA935A008B0113 /* XIWTapCounter.h */,
 				CEFE332517DA935A008B0113 /* XIWTapCounter.m */,
 				CEFE32FF17DA875F008B0113 /* Images.xcassets */,
@@ -452,6 +452,7 @@
 				CEFE331817DA875F008B0113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEFE331917DA875F008B0113 /* Build configuration list for PBXNativeTarget "HelloWorldAppTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +461,7 @@
 				CEFE331B17DA875F008B0113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

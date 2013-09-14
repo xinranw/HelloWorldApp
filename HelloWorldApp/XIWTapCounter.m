@@ -25,6 +25,6 @@
     
     //set the current tap count
     _numberOfTaps = [NSNumber numberWithInteger:tempTapCount];
-}
+} 
 
 @end
